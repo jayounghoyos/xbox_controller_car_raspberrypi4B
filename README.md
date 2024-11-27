@@ -1,36 +1,38 @@
 # Raspberrypi 4 Car With XBOX_controller
 
-This is a project to drive a raspberrypi car with a xbox controller. you can drive it with other controllers but you will need to to use the library evtest and try all the inputs for your controller. NOTE: USE A ENVIROMENT FOR THE PROJECT /(°U°)/
+This is a project to drive a Raspberry Pi car with an Xbox controller. You can also use other controllers, but you'll need to use the library `evtest` to test all the inputs for your specific controller. NOTE: Make sure to use a virtual environment for this project! /(°U°)/
 
 ![driving_the_car_GIF](imgs/controller.gif)
 ![close_case](imgs/close.jpeg)
 ![open_case](imgs/open.jpeg)
 
-# Librearies to install 
+# Libraries to Install
 
-#### RPi.GPIO is installed for deafault in the raspverry but you can check
+## RPi.GPIO
+RPi.GPIO is installed for deafault in the raspverry but you can check
 ```bash
 pip install RPi.GPIO
 
 ```
-#### evdev input devices
-
+## evdev (Input Devices)
+Install the `evdev` library for handling input devices:
 ```bash
 pip install evdev
 ```
-or use this one
+Or install evtest for testing inputs:
 ```bash
 sudo apt-get install evtest
 ```
 
-### All commands
+## All commands
+To ensure everything is installed, run the following commands:
 ```bash
 pip install RPi.GPIO
 pip install evdev
 sudo apt-get install evtest
 ```
-
-To try and see the controller inputs use this:
+## Testing the controller inputs
+To check and see the inputs from your controller, use:
 ```bash
 sudo evtest
 ```
