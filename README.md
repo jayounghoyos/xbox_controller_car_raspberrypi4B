@@ -1,6 +1,6 @@
 # Raspberrypi 4 Car With XBOX_controller
 
-This is a project to drive a Raspberry Pi car with an Xbox controller. You can also use other controllers, but you'll need to use the library `evtest` to test all the inputs for your specific controller. NOTE: Make sure to use a virtual environment for this project! /(°U°)/
+This is a project to drive a Raspberry Pi car with an Xbox controller. You can also use other controllers, but you'll need to use the library `evtest` to test all the inputs for your specific controller. NOTE: Make sure to use a virtual environment for this project! (◕‿◕)
 
 ![driving_the_car_GIF](imgs/controller.gif)
 ![close_case](imgs/close.jpeg)
